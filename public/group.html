@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/EasyGroup.css">
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+<body class="w3-light-grey">
+	<header class="w3-container crimson-background">
+  		<i class="fa fa-users w3-jumbo w3-padding-24" aria-hidden="true"></i>
+		<span class = "w3-jumbo">EasyGroup</span>
+		<img src = "img/stevens_new.gif" style = "width: 100px; height: 105px; float: right; padding-top: 8px;" >
+	</header>
+
+	<ul>
+	 <li><a class="active" href="group.html">Go To Groups</a></li>
+	 <li><a href="find.html">Find A Group</a></li>
+	 <li><a href="profile.html">View Profile</a></li>
+	 <li><a href="profile.html">Edit Profile</a></li>
+	 <li><a onclick = "window.alert('Logout Successful!');"href="index.html">Logout</a></li>
+	</ul>
+<!-- Page Container -->
+<div class="w3-content w3-light-grey w3-margin-top" style="max-width:1400px;">
+
+	<br>
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-quarter">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+
+        <div class="w3-container">
+		<p class="w3-xlarge w3-padding-8"><b>Groups</b></p>
+          <p class = "crimson-background w3-padding-8"><i class="fa fa-asterisk fa-fw w3-margin-right"></i>MA 123 - Gradarius help</p>
+          <p class = "w3-padding-8"><i class="fa fa-asterisk fa-fw w3-margin-right crimson"></i>PEP 112 - Quiz review</p>
+          <p class = "w3-padding-8"><i class="fa fa-asterisk fa-fw w3-margin-right crimson"></i>CS 135 - Problem set help</p>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-half">
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom" style = "height: 100%;">
+        <h2 class="w3-text-grey w3-padding-16"></i>MA 123 - Gradarius help Chat</h2>
+		<div class = "other-message">
+		<b>Jordan Tantuico</b> 3:04 PM<br>
+			Hey Zack, are you ready to go to the library soon?
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class = "message">
+			<b>Zack Chieco</b> 3:07 PM<br>
+			Yeah, I'll be on campus in a few minutes.
+		</div>
+		<br><br>
+				<div class = "other-message">
+		<b>Jordan Tantuico</b> 3:10 PM<br>
+			Alright, cool. See you in a bit.
+		</div>
+		<br><br><br>
+				<div class = "message">
+			<b>Zack Chieco</b> 3:15 PM<br>
+			Alright, I'm on my way.
+		</div>
+		<br>
+		<hr>
+		<textarea class = "message-entry" placeholder="Enter your message here..."></textarea>
+		<br>
+	  </div>
+      </div>
+
+    <!-- End Right Column -->
+
+	    <div class="w3-quarter">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+
+        <div class="w3-container">
+		<p class="w3-xlarge w3-padding-8"><b>MA 123 Gradarius schedule</b></p>
+          <p><i class="fa fa-calendar fa-fw w3-margin-right w3-large crimson"></i>Meets every Tuesday at 3:00 PM.</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large crimson"></i>Meets at library</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right crimson"></i>Members</b></p>
+          <p>Jordan Tantuico</p>
+          <p>Zachary Chieco</p>
+			<hr>
+			<p class="w3-xlarge"><b>Still need help?</b></p>
+			<button class = "help-button  ">Ask a pro!</button>
+			<br>
+        </div>
+      </div><br>
+	  </div>
+
+</div>
+</div>
+<footer class = "w3-container footer w3-padding-24">
+<p>Zachary Chieco and Jordan Tantuico - Venture Hacks Spring 2017</br>Stevens Institute of Technology</p></footer>
+</body>
+</html>

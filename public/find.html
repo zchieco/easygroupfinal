@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>EasyGroup- Find A Group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet" href ="css/EasyGroup.css">
+
+<body class="w3-light-grey">
+	<header class="w3-container crimson-background">
+  		<i class="fa fa-users w3-jumbo w3-padding-24" aria-hidden="true"></i>
+		<span class = "w3-jumbo">EasyGroup</span>
+		<img src = "img/stevens_new.gif" style = "width: 100px; height: 105px; float: right; padding-top: 8px;" >
+		</header>
+
+		<ul>
+		 <li><a href="group.html">Go To Groups</a></li>
+		 <li><a class="active" href="find.html">Find A Group</a></li>
+		 <li><a href="profile.html">View Profile</a></li>
+		 <li><a href="profile.html">Edit Profile</a></li>
+		 <li><a onclick = "window.alert('Logout Successful!');"href="index.html">Logout</a></li>
+		</ul>
+	<br>
+<!-- heading -->
+<div class="w3-content w3-light-grey w3-margin-top" style="max-width:1400px;">
+
+
+<div class = "w3-row-padding">
+<div class="w3-half">
+<div class="w3-white w3-text-grey w3-card-4">
+	<div class = "w3-container">
+<h1 class="w3-margin w3-jumbo">Search For A Group</h1>
+
+
+<label class="w3-padding-32 " for="job">Class:</label>
+<select id="job" name="user_job">
+  <optgroup label="Calculus">
+    <option>MA-121</option>
+    <option>MA-122</option>
+    <option>MA-123</option>
+    <option>MA-124</option>
+    <option>MA-221</option>
+  </optgroup>
+  <optgroup label="Physics">
+    <option>PEP-111</option>
+    <option>PEP-112</option>
+    <option>PEP-124</option>
+  </optgroup>
+  <optgroup label="Programming">
+    <option>E-115</option>
+    <option>CS-115</option>
+    <option>CS-135</option>
+  </optgroup>
+  <optgroup label="Humanities">
+    <option>CAL-103</option>
+    <option>CAL-105</option>
+  </optgroup>
+</select>
+
+<br>
+<label>Recitation Section Letter (optional):</label>
+<input>
+<br>
+<label>Lecture Letter (optional):</label>
+<input>
+<br>
+<label>Lab Section Letter (optional):</label>
+<input>
+<a href="group.html"><button class = "help-button">Show Groups</button></a>
+</div>
+</div>
+</div>
+<div class="w3-half w3-center w3-margin-bottom">
+	<div class="w3-white w3-text-grey w3-card-4">
+		<div class = "w3-container">
+	<h2 class="w3-margin w3-jumbo">Browse Groups</h1>
+	  <a href="group.html">MA-121-RC Gradarius Help</a><br>
+	  <a href="group.html">MA-123-RE Gradarius Help</a><br>
+	  <a href="group.html">MA-123-RA Written Homework Help</a><br>
+	  <a href="group.html">MA-124-RB Exam Preparation</a><br>
+	  <a href="group.html">PEP-111-RC Team 2 Project</a><br>
+	  <a href="group.html">E-115-A Exam Preparation</a><br>
+	  <a href="group.html">CS-115-B Final Project Team 3</a><br>
+	  <a href="group.html">CAL-103-D Monthly Test Review</a><br>
+	  <a href="group.html">CAL-103-M Essay Revision Group</a><br>
+	  <a href="group.html">CAL-105-C Weekly Homework Help</a><br>
+	</div>
+	<br>
+</div>
+</div>
+</div>
+</div>
+<footer class = "w3-container footer w3-padding-24">
+<p>Zachary Chieco and Jordan Tantuico - Venture Hacks Spring 2017</br>Stevens Institute of Technology</p></footer>
+</body>
+</html>
